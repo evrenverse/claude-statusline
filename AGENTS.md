@@ -2,7 +2,7 @@
 
 If you already use an AI coding agent (Claude Code, Cursor, Aider, Codex, Continue, etc.) you can hand it this file — or just the prompt block below — and it will set up `claude-statusline` end-to-end without you having to copy commands.
 
-**If you are the agent reading this:** follow the steps in order, stop at every "PAUSE" marker and let the human act before you continue. Never overwrite an existing `~/.claude/settings.json` without backing it up and confirming with the human first.
+**If you were handed this file to set up claude-statusline:** follow the steps in order, and wait for the human where a step says to ask or tell them (step 4 when a different `statusLine` exists, step 6 for the restart). Never overwrite an existing `~/.claude/settings.json` without backing it up and confirming with the human first.
 
 ---
 

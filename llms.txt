@@ -6,16 +6,16 @@ claude-statusline is the drop-in visual replacement for Claude Code's default si
 
 ## Key docs
 
-- [README.md](https://github.com/codename-cn/claude-statusline/blob/main/README.md): Install (one-liner or manual), what each line shows, full env-var reference, platform support, known quirks.
-- [AGENTS.md](https://github.com/codename-cn/claude-statusline/blob/main/AGENTS.md): End-to-end setup instructions meant to be handed directly to a coding agent (Claude Code, Cursor, Aider, Codex, …). Includes a settings-backup guardrail and a verification checklist.
-- [SECURITY.md](https://github.com/codename-cn/claude-statusline/blob/main/SECURITY.md): Threat model and reporting channel. No tokens are read or written.
+- [README.md](https://github.com/evrenverse/claude-statusline/blob/main/README.md): Install (one-liner or manual), what each line shows, full env-var reference, platform support, known quirks.
+- [AGENTS.md](https://github.com/evrenverse/claude-statusline/blob/main/AGENTS.md): End-to-end setup instructions meant to be handed directly to a coding agent (Claude Code, Cursor, Aider, Codex, …). Includes a settings-backup guardrail and a verification checklist.
+- [SECURITY.md](https://github.com/evrenverse/claude-statusline/blob/main/SECURITY.md): Threat model and reporting channel. No tokens are read or written.
 
 ## Install
 
 One-liner (recommended):
 
 ```
-curl -fsSL https://raw.githubusercontent.com/codename-cn/claude-statusline/main/scripts/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/evrenverse/claude-statusline/main/scripts/install.sh | bash
 ```
 
 The installer downloads `statusline.sh` to `~/.claude/statusline.sh` and patches `~/.claude/settings.json` after confirming with the user if a prior `statusLine` entry exists.
